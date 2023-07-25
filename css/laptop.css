@@ -1,0 +1,367 @@
+:root {
+  --main-color: #15aabf;
+}
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+/* HERO SECTION */
+#banner {
+  height: 75vh;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  background-size: auto;
+  background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.6)),
+    url(/images/banner.jpg);
+}
+/* Navigation Bar */
+#nav-bar {
+  width: auto;
+  position: relative;
+  border: 0.5px solid rgba(0, 0, 0, 0.082);
+  background-color: #e9ecef;
+}
+.main-menu {
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.main-menu ul li {
+  float: none;
+  display: inline-block;
+  padding: 10px;
+  border-left: 1px solid rgba(128, 128, 128, 0.5);
+}
+.main-menu ul li:last-child {
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.main-menu ul li:nth-last-child(3) {
+  position: relative;
+}
+.main-menu li {
+  color: var(--main-color);
+}
+.main-menu ul li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #343a40;
+}
+.navbar-brand img {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+}
+/* CV Image */
+.image {
+  border-radius: 50%;
+  border: 14px solid #fff;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  margin-left: 0;
+}
+
+/* Information */
+.container-info-fluid {
+  display: grid;
+  height: auto;
+  grid-template-columns: 50% 50%;
+  line-height: 1.6;
+  color: #343a40;
+  padding-bottom: 50px;
+}
+h1 {
+  font-size: 32px;
+}
+#target {
+  font-size: 20px;
+  padding-top: 100px;
+  background-color: #e9ecef;
+  padding-left: 200px;
+  padding: 100px 36px 20px 36px;
+}
+#target p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+#personal-info {
+  background-color: #dee2e6;
+  padding: 100px 36px 20px 36px;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  font-size: 20px;
+}
+/* ICON Style */
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.container h1 {
+  font-size: 1.5rem;
+}
+/* Grid Items */
+#job-info {
+  padding-bottom: 10px;
+}
+.exp,
+.study,
+.activity,
+.favorite,
+.languages,
+.skill {
+  position: relative;
+  padding: 20px;
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 2px;
+  width: 100%;
+}
+
+.now {
+  display: flex;
+}
+.now p {
+  color: #f8f9fa;
+  background-color: #74c0fc;
+  border-radius: 15px;
+  padding: 0 7px 0 7px;
+  margin-left: 5px;
+}
+.ticked {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -12px;
+}
+
+/* TOOLBOX */
+.toolbox {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2 {
+  font-size: 28px;
+  color: #868e96;
+}
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  color: #199cdb;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #199cdb;
+  border-radius: 50%;
+  font-size: 30px;
+}
+/* Languages */
+.span-one,
+.span-two {
+  display: inline-block;
+  background-color: var(--main-color);
+  height: 4px;
+  margin-right: 10px;
+  width: 70px;
+}
+.span-three {
+  display: inline-block;
+  background-color: #868e96;
+  height: 2px;
+  margin-right: 10px;
+  width: 70px;
+}
+/* Skills */
+.html,
+.js,
+.node,
+.boot {
+  display: inline-block;
+  background-color: var(--main-color);
+  height: 4px;
+  margin-right: 10px;
+  width: 70px;
+}
+.html-css,
+.js-s,
+.node-js,
+.bootstrap {
+  display: inline-block;
+  background-color: #868e96;
+  height: 2px;
+  margin-right: 10px;
+  width: 70px;
+}
+/* Certificate */
+#certificate {
+  color: #343a40;
+}
+.border-left-certificate {
+  border-left: 1px solid #d6c08d;
+}
+.border-bottom-certificate {
+  border-bottom: 1px solid #d6c08d;
+}
+.web {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.web li {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.java {
+  display: grid;
+  grid-template-columns: 25% 50%;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 12px;
+  border-bottom: 1px solid #d6c08d;
+}
+.java img {
+  border-left: 1px solid #d6c08d;
+  padding-left: 20px;
+}
+.java li {
+  font-size: 14px;
+  padding-left: 80px;
+}
+.data {
+  display: grid;
+  grid-template-columns: 25% 50%;
+  align-content: center;
+  padding-top: 20px;
+}
+.data li {
+  font-size: 14px;
+  padding-left: 20px;
+}
+/* PROJECT */
+#project {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #343a40;
+}
+.projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  padding-top: 10px;
+}
+.profile,
+.pet,
+.news {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  border: 1px solid #eeeeee;
+}
+.cv {
+  font-size: 20px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+}
+.year {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #eeeeee;
+}
+.years {
+  color: white;
+  background-color: var(--main-color);
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 0 7px 0 7px;
+}
+.icon-user-1,
+.icon-lamp {
+  margin-right: 10px;
+}
+img {
+  justify-content: center;
+}
+table {
+  font-size: 14px;
+  border-collapse: collapse;
+  border: 1px solid #eeeeee;
+  line-height: 1.5;
+}
+td {
+  text-align: left;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px;
+  width: 1px;
+}
+/* FOOTER */
+#footer {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+/* Phần footer này em bỏ qua sử dụng inline-block chỉ sử dụng flex cho dễ căn chỉnh */
+.linked {
+  display: flex;
+  justify-content: center;
+}
+.linked li {
+  color: #343a40;
+  font-size: 18px;
+  padding: 0 20px;
+}
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 36px;
+}
+
+/* Button */
+.btn {
+  padding: 10px;
+  background-color: var(--main-color);
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: #f7f7f7;
+}
+.btn:hover,
+.btn:active {
+  background-color: #1c7ed6;
+  transform: translateY(-2px);
+  color: #f7f7f7;
+}
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  padding-bottom: -5px;
+}

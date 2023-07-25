@@ -1,0 +1,57 @@
+/* Tablets and under */
+@media only screen and (max-width: 991px) {
+  /* Hero Section */
+  #banner {
+    width: auto;
+    background-size: cover;
+  }
+  /* Navbar */
+  #navbar {
+    display: flex;
+  }
+  #navbar h4 {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+  .main-menu ul li:nth-child(2) {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  .main-menu ul li:nth-child(3) {
+    border: none;
+    padding: 10px;
+  }
+  .main-menu ul li {
+    padding: 10px;
+  }
+  .web {
+    display: block;
+  }
+  .web img {
+    margin-bottom: 15px;
+  }
+  /* About */
+  #about {
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Introduce */
+  #info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Grid items */
+  #job-info {
+    width: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Projects */
+  #project {
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .profile .pet .news {
+    width: auto;
+  }
+}
