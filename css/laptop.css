@@ -16,7 +16,7 @@
   font-size: 28px;
   background-size: auto;
   background-image: linear-gradient(rgb(34, 34, 34, 0.6), rgb(34, 34, 34, 0.6)),
-    url("./css/images/banner.jpg");
+    url("./css/banner.jpg");
 }
 /* Navigation Bar */
 #nav-bar {
